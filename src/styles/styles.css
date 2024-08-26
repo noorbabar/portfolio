@@ -8,7 +8,7 @@ body {
   
   body {
       background-color: rgba(239, 204, 164, 0.332);
-      font-family:monospace;
+      font-family:Trebuchet MS;
       font-size: 150%;
       padding: 30px;
       margin: 50px;
@@ -79,7 +79,7 @@ body {
   
     p {
       color: rgb(14, 1, 1);
-      font-family:monospace;
+      font-family: Trebuchet MS ;
       text-align: center;
   
     }
