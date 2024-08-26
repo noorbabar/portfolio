@@ -168,6 +168,26 @@ td {
 .social-icon img {
   display: block; 
 }
+
+.about-me-heading {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 3rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-align: center;
+  color: #fff; /* White text color */
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+  -webkit-background-clip: text; /* Clip background to text */
+  background-clip: text;
+  text-shadow: 0 2px 3px hsl(305, 52%, 83%); /* Original shadow effect */
+  transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.about-me-heading:hover {
+  transform: translateY(-5px); /* Slightly move up on hover */
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
 /* Dark Mode */
 body.dark-mode {
   background-color: #121212; 
