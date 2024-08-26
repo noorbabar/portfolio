@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>NOOR'S PORTFOLIO</title>
+</head>
+<body>
+
+<div class="gradient radial">
+    NOOR'S PORTFOLIO
+</div>
+<a href="home.html" class="button-heading">HOME</a>
+<a href="about.html" class="button-heading">ABOUT ME</a>
+<a href="journal.html" class="button-heading">JOURNAL</a>
+<a href="contact.html" class="button-heading">CONTACT</a>
+
+<h1>ABOUT ME</h1>
+<p>I'm passionate about programming, creating projects and cybersecurity. Programming allows me to create and innovate, while cybersecurity ensures the safety and integrity of those creations in our digital world. It's the perfect blend of creativity and protection, where I can build solutions while safeguarding against evolving threats. </p>
+<p>In addition to my academic interests, below are some fun facts about me: </p>
+<table>
+    <tr>
+        <td class="color-change"><strong>Age</strong></td>
+        <td class="color-change">19</td>
+    </tr>
+    <tr>
+        <td class="color-change"><strong>Degree</strong></td>
+        <td class="color-change">Computer Science</td>
+    </tr>
+    <tr>
+        <td class="color-change"><strong>Major</strong></td>
+        <td class="color-change">Cybersecurity</td>
+    </tr>
+    <tr>
+        <td class="color-change"><strong>Interests</strong></td>
+        <td id="interestsContent" class="color-change" onclick="changeHobby()">Watching K-Dramas</td>
+    </tr>
+    <tr>
+        <td class="color-change"><strong>Favourite Movies</strong></td>
+        <td id="moviesContent" class="color-change" onclick="changeMovie()">Maze Runner</td>
+    </tr>
+</table>
+  
+<script>
+    function changeHobbyAutomatically() {
+        const interestsContent = document.getElementById('interestsContent');
+        const interests = [
+  'Gym',
+  'Photography',
+  'Journaling',
+  'Watching the sunrise and sunset',
+  'Going to the beach',
+  'Baking',
+  'Self-care activities',
+  'Traveling',
+  'Being in nature',
+  'Learning about my religion',
+  'Taking naps',
+  'Walking my cat'
+];
+        let currentIndex = 0; 
+
+        setInterval(() => {
+            interestsContent.innerText = interests[currentIndex];
+            currentIndex = (currentIndex + 1) % interests.length; 
+        }, 3000); 
+    }
+
+    function changeMovieAutomatically() {
+        const moviesContent = document.getElementById('moviesContent');
+        const movies = ['Maze Runner','20th Girl Century','Venom','Mean Girls','The Fault In Our Stars', 'Divergent', 'White Chicks', 'Black Panther', 'Avatar', 'Karate Kid', 'Tangled', 'Big Hero 6 +200 more'];
+        let currentIndex = 0; 
+
+        setInterval(() => {
+            moviesContent.innerText = movies[currentIndex];
+            currentIndex = (currentIndex + 1) % movies.length;
+        }, 3000);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        changeHobbyAutomatically();
+        changeMovieAutomatically();
+    });
+</script>
+    
+</body>
+</html>
