@@ -5,9 +5,11 @@
 <title> NOOR'S PORTFOLIO </title>
 </head>
 <body>
+    <button id="darkModeToggle" class="dark-mode-toggle">Mode</button>
 
 <div class="gradient radial">
 NOOR'S PORTFOLIO
+
 </div>
 <a href="about.html" class="button-heading">ABOUT ME</a>
 <a href="projects.html" class="button-heading">PROJECTS</a>
@@ -17,7 +19,7 @@ NOOR'S PORTFOLIO
     <p><small> a <em>beginner, actively progressing and learning..</em></small></p></p>
 
 <h1>ABOUT ME</h1>
-<p>I'm passionate about programming, creating projects and cybersecurity. Programming allows me to create and innovate, while cybersecurity ensures the safety and integrity of those creations in our digital world. It's the perfect blend of creativity and protection, where I can build solutions while safeguarding against evolving threats. </p>
+<p>I'm passionate about programming, creating projects and cybersecurity. Programming allows me to create and innovate, while cybersecurity ensures the safety and integrity of those creations in our digital world. </p>
 <p>In addition to my academic interests, below are some fun facts about me: </p>
 <table>
     <tr>
@@ -78,14 +80,16 @@ NOOR'S PORTFOLIO
         }, 3000);
     }
 
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+
     document.addEventListener('DOMContentLoaded', function() {
         changeHobbyAutomatically();
         changeMovieAutomatically();
     });
 </script>
     
-</body>
-</html>
-
 </body>
 </html>

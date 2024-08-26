@@ -6,6 +6,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
+    <button id="darkModeToggle" class="dark-mode-toggle">Mode</button>
 
 <div class="gradient radial">
     NOOR'S PORTFOLIO
@@ -49,6 +50,13 @@
         <p> Undertaking Computer System Fundamentals & Introduction to Networking and Security </p>
 </div>
 </section>
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  });
+</script>
 </body>
 </html>
