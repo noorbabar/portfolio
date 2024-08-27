@@ -7,16 +7,28 @@ This is a showcase of my skills, projects, and journey as a Computer Science stu
 Features
 
 Responsive Design: The website is fully responsive and looks great on all devices.
-Dark Mode: Toggle between light and dark themes for a personalized browsing experience.
+
+Dark Mode: Toggle between light and dark themes for a personalised browsing experience.
+
 Interactive Sections: Scroll-triggered animations, 3D hover effects, and more for an engaging user experience.
+
 Dynamic Content: Auto-changing text for hobbies and favorite movies to keep the content fresh.
+
 Projects Showcase: Explore my latest projects with detailed descriptions and links to live demos and GitHub repositories.
+
 About Me: Learn more about who I am, my background, and what drives me.
+
 Sections
+
+
 Home: A brief introduction to who I am and what this portfolio is about.
+
 About Me: Detailed information about my academic and personal journey.
+
 Projects: A showcase of selected projects I've worked on.
+
 Journal: A space where I share my thoughts, progress, and experiences.
+
 
 Deployment
 
