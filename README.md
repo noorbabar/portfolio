@@ -24,8 +24,7 @@ https://noorbabar.github.io/portfolio/index.html
 Contact
 If you have any questions or want to get in touch, you can find me on:
 
-LinkedIn: Noor Babar
+LinkedIn: https://www.linkedin.com/in/noorxb/ 
 
-GitHub: noorbabar
 
 Thank you for visiting my portfolio!
